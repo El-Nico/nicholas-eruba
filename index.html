@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicholas Chibuike-Eruba | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b0b0b;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      color: #4af;
+    }
+    header h2 {
+      font-weight: 400;
+      color: #ccc;
+    }
+    section {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 1rem;
+    }
+    .project {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 2rem 0;
+    }
+    .skill {
+      background: #222;
+      padding: 8px 14px;
+      border-radius: 5px;
+      color: #4af;
+      border: 1px solid #333;
+      font-size: 0.9rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      background: #111;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      background: #4af;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+      background: #379;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #aaa;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nicholas Chibuike-Eruba</h1>
+    <h2>Software Engineer & Social Entrepreneur</h2>
+  </header>
+
+  <section>
+    <h3>Featured Project</h3>
+    <div class="project">
+      <h2>GoalSetter</h2>
+      <p>A new, flexible, and colorful way to manage your tasks and goals.</p>
+      <img src="goals_front_page.png" alt="GoalSetter project preview" />
+    </div>
+  </section>
+
+  <section>
+    <h3>Skills</h3>
+    <div class="skills">
+      <div class="skill">React</div>
+      <div class="skill">Next.js</div>
+      <div class="skill">Python</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">TypeScript</div>
+      <div class="skill">UI/UX Design</div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Contact Me</h3>
+    <form action="https://formspree.io/f/mayvlqer" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Nicholas Chibuike-Eruba. All rights reserved.
+  </footer>
+
+</body>
+</html>
